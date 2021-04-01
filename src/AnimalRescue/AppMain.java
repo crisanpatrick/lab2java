@@ -5,7 +5,11 @@ public class AppMain {
         Dog rex = new Dog();
         System.out.println(rex.breed);
         rex.eat();
-        rex.weight = 25.9f;
-        System.out.println(rex.weight);
+        System.out.print("He got fatter and his wiehgt is : " );
+        rex.weight = (rex.weight + 1);
+        System.out.print(rex.weight);
+        System.out.println(" KG");
+        System.out.println("After eating he got pig disease and went to sleep!");
+        rex.sleep();
     }
 }
