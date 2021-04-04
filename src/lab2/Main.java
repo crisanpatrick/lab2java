@@ -26,6 +26,11 @@ public class Main {
         System.out.println(speedinkph);
         int speedinmph = speedinmph(4579,2);
         System.out.println(speedinmph);
+        System.out.println();
+        Ascii java = new Ascii();
+        java.java();
+        System.out.println();
+        java.robot();
     }
 
     //Inmultire
@@ -93,5 +98,6 @@ public class Main {
         return speedinmph;
 
     }
+
 
 }
