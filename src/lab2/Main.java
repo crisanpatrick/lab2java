@@ -20,6 +20,12 @@ public class Main {
         System.out.println(celsius);
         double inch = inch(10);
         System.out.println(inch);
+        int speedinmps = speedinmps(5762,0,5,7);
+        System.out.println(speedinmps);
+        int speedinkph = speedinkph(78524,5);
+        System.out.println(speedinkph);
+        int speedinmph = speedinmph(4579,2);
+        System.out.println(speedinmph);
     }
 
     //Inmultire
@@ -72,10 +78,20 @@ public class Main {
     }
 
     //viteza
-   // public static int speed(int meters, int hours, int minutes, int seconds) {
-   //     int speedinmps = (meters / (hours * 60 + minutes * 60 + seconds * 60));
-    //    int speedinkph =;
-    //    int speedinmph
-   // }
+    public static int speedinmps(int meters, int hours, int minutes, int seconds) {
+        int speedinmps = (meters / (hours * 60 + minutes * 60 + seconds * 60));
+        return speedinmps;
+    }
+
+    public static int speedinkph(int meters, int hours) {
+        int speedinkph = ((meters / 1000) / hours);
+        return speedinkph;
+    }
+
+    public static int speedinmph(int meters, int hours) {
+        int speedinmph = ((meters / 1609) / hours);
+        return speedinmph;
+
+    }
 
 }
