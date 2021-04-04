@@ -1,16 +1,15 @@
 package AnimalRescue;
 
-import java.lang.reflect.AnnotatedArrayType;
-
 public class Girl {
     String name = "Anna";
     int money = 150;
     String currency = "$";
 
-    public void wish(){
-        System.out.println("I wish I had a dog!");
+    public void name() {
+        System.out.println("Hello, my name is " + name + ".");
     }
-    public void doggo(){
-        System.out.println("Thank you! Now I have a dog friend!");
+
+    public void wallet() {
+        System.out.println("I have " + money + currency + " in my wallet!");
     }
 }
