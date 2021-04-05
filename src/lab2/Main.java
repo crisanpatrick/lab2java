@@ -16,7 +16,7 @@ public class Main {
         System.out.println(sub);
         int media = media(15, 58, 97);
         System.out.println(media);
-        double celsius = celsius(198);
+        double celsius = celsius(32);
         System.out.println(celsius);
         double inch = inch(10);
         System.out.println(inch);
@@ -72,7 +72,7 @@ public class Main {
 
     //Conversie celsius
     public static double celsius(int far) {
-        double celsius = ((5 / 9) * (far - 32));
+        float celsius = ((5f / 9) * (far - 32));
         return celsius;
     }
 
