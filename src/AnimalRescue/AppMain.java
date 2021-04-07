@@ -4,27 +4,29 @@ public class AppMain {
     public static void main(String[] args) {
         //Dog
         Dog rex = new Dog();
-        rex.age();
-        rex.health();
-        rex.hunger();
-        rex.spirit();
-        rex.favfood();
-        rex.favactiv();
+        rex.setName();
+        rex.setAge();
+        rex.setHealth();
+        rex.setHunger();
+        rex.setSpirit();
+        rex.setFavfood();
+        rex.setFavactiv();
         //Girl
         Girl anna = new Girl();
-        anna.name();
-        anna.wallet();
+        anna.setName();
+        anna.setMoney();
+        anna.setCurrency();
         //Food
         Food food = new Food();
-        food.brand();
-        food.price();
-        food.availibility();
+        food.setName();
+        food.setPrice();
+        food.setQuantity(););
         //Recreational Activity
         Activity activity = new Activity();
-        activity.name();
+        activity.setName();
         //Vet
         Vet vet = new Vet();
-        vet.name();
-        vet.spec();
+        vet.setName();
+        vet.setSpec();
     }
 }

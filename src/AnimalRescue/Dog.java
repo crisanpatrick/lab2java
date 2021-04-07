@@ -1,53 +1,72 @@
 package AnimalRescue;
 
 public class Dog {
-    String name = "Rex";
-    int age = 2;
-    String breed = "Ciobanesc German";
-    String color = "Yellow/Black";
-    float weight = 24.4f;
-    int heightInCM = 50;
-    int health = 6;
-    int hunger = 4;
-    int spirit = 8;
-    String favfood = "Dogo Goodies!";
-    String favactiv = "Fetch";
+    private String name;
+    private int age;
+    private int health;
+    private int hunger;
+    private int spirit;
+    private String favfood;
+    private String favactiv;
 
-    public void bark() {
-        System.out.println("Ham!");
+    public String getName() {
+        return name;
     }
 
-    public void eat() {
-
-        System.out.println("Eating food!");
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void sleep() {
-        System.out.println("zZzZzZ *snores*");
+    public String getFavfood() {
+        return favfood;
     }
 
-    public void age() {
-        System.out.println(age);
+    public void setFavfood(String favfood) {
+        this.favfood = favfood;
     }
 
-    public void health() {
-        System.out.println("His health is at " + health + "/10");
+    public String getFavactiv() {
+        return favactiv;
     }
 
-    public void hunger() {
-        System.out.println("His hunger is at " + hunger + "/10");
+    public void setFavactiv(String favactiv) {
+        this.favactiv = favactiv;
     }
 
-    public void spirit() {
-        System.out.println("His spirit is at " + spirit + "/10");
+    public int getAge() {
+        return age;
     }
 
-    public void favfood() {
-        System.out.println("His favorite food is " + favfood);
+    public void setAge(int age) {
+        this.age = age;
     }
 
-    public void favactiv() {
-        System.out.println("His favorite activity is " + favactiv);
+    public int getHealth() {
+        return health;
     }
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
+    public int getHunger() {
+        return hunger;
+    }
+
+    public void setHunger(int hunger) {
+        this.hunger = hunger;
+    }
+
+    public int getSpirit() {
+        return spirit;
+    }
+
+    public void setSpirit(int spirit) {
+        this.spirit = spirit;
+    }
+
 }
+
+
+
 

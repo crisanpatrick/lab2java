@@ -1,8 +1,13 @@
 package AnimalRescue;
 
 public class Activity {
-    String name = "Fetch";
-    public void name(){
-        System.out.println(name);
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
