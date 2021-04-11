@@ -10,6 +10,7 @@ public class Lab4 {
 //        op.countOdd();
 //        op.sumTo100(3);
 //        op.sumAndAverage(1);
+        op.asterisk(7);
 
 
     }

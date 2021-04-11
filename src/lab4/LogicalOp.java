@@ -19,7 +19,22 @@ public class LogicalOp {
         }
     }
 
-    //    public void countFromSmallToBig(int var1, int var2){ }
+    public void asterisk(int number) {
+        for (int i = 1; i <= number; i++) {
+            for (int j = 1; j <= number; j++) {
+                if ((i + j) > number) {
+                    System.out.print(" ");
+                } else {
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    //    public void countFromSmallToBig(int var1, int var2){
+
+    //    }
     public void countEven() {
         for (int i = 1; i <= 100; i++) {
             if (i % 2 == 0) {
@@ -53,7 +68,4 @@ public class LogicalOp {
         }
         return sum / count;
     }
-
-//    public void asterisk() {}
-
 }
