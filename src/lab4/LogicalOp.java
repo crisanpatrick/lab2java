@@ -111,12 +111,30 @@ public class LogicalOp {
             x++;
         }
     }
-//    public void sumandmed(){
+
+    //    public void sumandmed(){
 //        int x = 111;
 //        int count = 0;
 //        while (){
 //            for()
 //        }
+//    public void divwith7ininterval(int x,int y){
+//        while(x<y){
+//            if
+//        }
+//    }
+    public void fibo(int x) {
+        int first = -1;
+        int next = 1;
+        int i = 0;
+        while (i < x - 1) {
+            int sum = first + next;
+            first = next;
+            next = sum;
+            System.out.print(" " + sum);
+            i++;
+        }
+    }
 
     public void CozaLozaWoza() {
         int x = 1;

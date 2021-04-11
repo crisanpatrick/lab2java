@@ -19,6 +19,7 @@ public class Lab4 {
 //        op.count(-5,5);
 //        op.printEven();
 //        op.printOdd();
-        op.CozaLozaWoza();
+//        op.CozaLozaWoza();
+        op.fibo(20);
     }
 }
