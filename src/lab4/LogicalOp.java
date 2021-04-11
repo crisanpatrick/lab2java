@@ -121,33 +121,38 @@ public class LogicalOp {
     public void CozaLozaWoza() {
         int x = 1;
         int count = 0;
-        while (x <= 110) {
-            if (x % 3 == 0) {
-                System.out.print("Coza");
+
+            while (x <= 110) {
+                if (x % 3 == 0) {
+                    System.out.print("Coza=");
+                }
+                if (x % 5 == 0) {
+                    System.out.print("Loza=");
+                }
+                if (x % 7 == 0) {
+                    System.out.print("Woza=");
+                }
+                if (x % 3 == 0 && x % 5 == 0) {
+                    System.out.print("CozaLoza=");
+                }
+                if (x % 3 == 0 && x % 7 == 0) {
+                    System.out.print("CozaWoza=");
+                }
+                if (x % 5 == 0 && x % 7 == 0) {
+                    System.out.print("WozaLoza=");
+                }
+                if (x % 3 == 0 && x % 5 == 0 && x % 7 == 0) {
+                    System.out.print("CozaLozaWoza=");
+                }
+                System.out.print(x+" ");
+                x++;
+                count++;
+
+
             }
-            if (x % 5 == 0) {
-                System.out.print("Loza");
-            }
-            if (x % 7 == 0) {
-                System.out.print("Woza");
-            }
-            if (x % 3 == 0 && x % 5 == 0) {
-                System.out.print("CozaLoza");
-            }
-            if (x % 3 == 0 && x % 7 == 0) {
-                System.out.print("CozaWoza");
-            }
-            if (x % 5 == 0 && x % 7 == 0) {
-                System.out.print("WozaLoza");
-            }
-            if (x % 3 == 0 && x % 5 == 0 && x % 7 == 0) {
-                System.out.print("CozaLozaWoza");
-            }
-            System.out.println(x);
-            x++;
-            count++;
 
         }
     }
-}
+
+
 
