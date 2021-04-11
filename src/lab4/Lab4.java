@@ -14,8 +14,11 @@ public class Lab4 {
 //        op.sumAndAverage(1);
 
 //        While Loops
-
-
-
+//        op.whilecountTo100(95);
+//        op.whileCountFromTo(5);
+//        op.count(-5,5);
+//        op.printEven();
+//        op.printOdd();
+        op.CozaLozaWoza();
     }
 }

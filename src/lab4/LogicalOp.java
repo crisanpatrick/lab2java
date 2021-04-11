@@ -68,5 +68,86 @@ public class LogicalOp {
         }
         return sum / count;
     }
+
+    // While loop
+    public void whilecountTo100(int number) {
+        while (number <= 100) {
+            System.out.println(number);
+            number = number + 1;
+        }
+    }
+
+    public void whileCountFromTo(int number) {
+        while (number >= -100) {
+            System.out.println(number);
+            number = number - 1;
+        }
+    }
+
+    public void count(int number1, int number2) {
+        do {
+            System.out.println(number1);
+            number1 = number1 + 1;
+        } while (number1 <= number2);
+    }
+
+    //    public void countSmallToBig(){}
+    public void printEven() {
+        int x = 0;
+        while (x <= 100) {
+            if (x % 2 == 0) {
+                System.out.println(x);
+            }
+            x++;
+        }
+    }
+
+    public void printOdd() {
+        int x = 0;
+        while (x <= 100) {
+            if (!(x % 2 == 0)) {
+                System.out.println(x);
+            }
+            x++;
+        }
+    }
+//    public void sumandmed(){
+//        int x = 111;
+//        int count = 0;
+//        while (){
+//            for()
+//        }
+
+    public void CozaLozaWoza() {
+        int x = 1;
+        int count = 0;
+        while (x <= 110) {
+            if (x % 3 == 0) {
+                System.out.print("Coza");
+            }
+            if (x % 5 == 0) {
+                System.out.print("Loza");
+            }
+            if (x % 7 == 0) {
+                System.out.print("Woza");
+            }
+            if (x % 3 == 0 && x % 5 == 0) {
+                System.out.print("CozaLoza");
+            }
+            if (x % 3 == 0 && x % 7 == 0) {
+                System.out.print("CozaWoza");
+            }
+            if (x % 5 == 0 && x % 7 == 0) {
+                System.out.print("WozaLoza");
+            }
+            if (x % 3 == 0 && x % 5 == 0 && x % 7 == 0) {
+                System.out.print("CozaLozaWoza");
+            }
+            System.out.println(x);
+            x++;
+            count++;
+
+        }
+    }
 }
-// While loop
+
