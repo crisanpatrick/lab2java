@@ -1,17 +1,10 @@
 package AnimalRescue;
 
-public class Girl {
-    private String name = "Anna";
-    private int money = 150;
-    private String currency = "$";
+public class Girl extends Human {
 
-    public String getName() {
-        return name;
-    }
+    private int money;
+    private String currency;
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public int getMoney() {
         return money;
@@ -27,13 +20,5 @@ public class Girl {
 
     public void setCurrency(String currency) {
         this.currency = currency;
-    }
-
-    public void name() {
-        System.out.println("Hello, my name is " + name + ".");
-    }
-
-    public void wallet() {
-        System.out.println("I have " + money + currency + " in my wallet!");
     }
 }

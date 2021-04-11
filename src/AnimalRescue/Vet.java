@@ -1,16 +1,7 @@
 package AnimalRescue;
 
-public class Vet {
-    String name = "John";
+public class Vet extends Human{
     String spec = "Dog Veterinarian";
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public String getSpec() {
         return spec;
@@ -18,13 +9,5 @@ public class Vet {
 
     public void setSpec(String spec) {
         this.spec = spec;
-    }
-
-    public void name() {
-        System.out.println("Hello my name is " + name + ".");
-    }
-
-    public void spec() {
-        System.out.println("And my Specialisation is " + spec + ".");
     }
 }

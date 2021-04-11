@@ -69,3 +69,4 @@ public class LogicalOp {
         return sum / count;
     }
 }
+// While loop
