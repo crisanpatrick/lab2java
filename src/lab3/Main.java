@@ -13,17 +13,17 @@ public class Main {
         System.out.println(op.bigNum(5, 8, 25));
         //Calculator
         Calculator calc = new Calculator();
-        System.out.println("Rezultatul adunarii este " + calc.plus(5, 10));
-        System.out.println("Rezultatul scaderii este " + calc.sub(5, 10));
-        System.out.println("Rezultatul inmultirii este " + calc.mult(5, 10));
-        System.out.println("Rezultatul impartirii este " + calc.div(50, 10));
-        System.out.println("Restul impartirii este " + calc.mod(5, 9));
-        System.out.println("Media numerelor este " + calc.media(5, 10, 15));
-        System.out.println("Sunt " + calc.celsius(275) + " Grade Celsius");
-        System.out.println(calc.inch(30) + " Inch");
-        System.out.println(calc.speedinmps(5795, 0, 5, 27) + " Metrii per Secunda");
-        System.out.println(calc.speedinkph(76542, 3) + " Kilometrii per Ora");
-        System.out.println(calc.speedinmph(56874, 5) + " Mile per Ora");
+//        System.out.println("Rezultatul adunarii este " + calc.plus(5, 10,15,20));
+//        System.out.println("Rezultatul scaderii este " + calc.sub(5, 10));
+//        System.out.println("Rezultatul inmultirii este " + calc.mult(5, 10));
+//        System.out.println("Rezultatul impartirii este " + calc.div(50, 10));
+//        System.out.println("Restul impartirii este " + calc.mod(5, 9));
+//        System.out.println("Media numerelor este " + calc.media(5, 10, 15));
+//        System.out.println("Sunt " + calc.celsius(275) + " Grade Celsius");
+//        System.out.println(calc.inch(30) + " Inch");
+//        System.out.println(calc.speedinmps(5795, 0, 5, 27) + " Metrii per Secunda");
+//        System.out.println(calc.speedinkph(76542, 3) + " Kilometrii per Ora");
+//        System.out.println(calc.speedinmph(56874, 5) + " Mile per Ora");
 
     }
 }
